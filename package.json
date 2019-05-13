@@ -1,0 +1,34 @@
+{
+  "name": "babel-preset-gmfe",
+  "version": "0.0.1",
+  "description": "Babel preset for gmfe",
+  "keywords": [
+    "babel",
+    "gmfe"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmfe/babel-preset-gmfe.git"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-decorators": "^7.0.0",
+    "@babel/plugin-proposal-function-bind": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "react-hot-loader": "^4.8.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "safe-publish-latest": "^1.1.2"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/runtime": "^7.0.0"
+  },
+  "author": "gmfe",
+  "main": "index.js",
+  "license": "ISC"
+}
