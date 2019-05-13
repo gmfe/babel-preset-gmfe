@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-gmfe",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Babel preset for gmfe",
   "keywords": [
     "babel",
@@ -17,8 +17,7 @@
     "@babel/plugin-syntax-dynamic-import": "^7.0.0",
     "@babel/plugin-transform-runtime": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
-    "@babel/preset-react": "^7.0.0",
-    "react-hot-loader": "^4.8.4"
+    "@babel/preset-react": "^7.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0"
