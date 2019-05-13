@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-gmfe",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Babel preset for gmfe",
   "keywords": [
     "babel",
@@ -21,12 +21,12 @@
     "react-hot-loader": "^4.8.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0",
-    "safe-publish-latest": "^1.1.2"
+    "@babel/core": "^7.0.0"
   },
   "peerDependencies": {
     "@babel/core": "^7.0.0",
-    "@babel/runtime": "^7.0.0"
+    "@babel/runtime": "^7.0.0",
+    "react-hot-loader": "^4.0.0"
   },
   "author": "gmfe",
   "main": "index.js",

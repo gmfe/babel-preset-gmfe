@@ -23,7 +23,7 @@ module.exports = declare((api, options) => {
           legacy: true
         }
       ],
-      require('react-hot-loader/babel'),
+      'react-hot-loader/babel',
       require('@babel/plugin-syntax-dynamic-import'),
       [
         require('@babel/plugin-proposal-class-properties'),
