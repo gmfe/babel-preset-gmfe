@@ -5,9 +5,10 @@ A babel preset for gmfe
 配置原因见 [这里](https://github.com/gmfe/Think/issues/67)
 删除项目 `package.json` 中的 babel plugin/preset babel-core@6.x ，安装 7.x 相关 package
 ```shell
-npm i @babel/runtime @babel/core babel-loader@^8.0.0 babel-preset-gmfe
+npm i @babel/runtime -S 
+npm i @babel/core babel-loader@^8.0.0 babel-preset-gmfe -D
 ```
-项目根目录删除 `.babelrc`，新增 `babel.config`，内容如下
+项目根目录删除 `.babelrc`，新增 `babel.config.js`，内容如下
 ```javascript
 module.exports = (api) => {
   api.cache(true)
