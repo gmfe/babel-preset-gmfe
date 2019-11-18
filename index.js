@@ -30,7 +30,8 @@ module.exports = declare((api, options) => {
         { loose: true }
       ],
       require('@babel/plugin-proposal-function-bind'),
-      require('@babel/plugin-transform-runtime')
+      require('@babel/plugin-transform-runtime'),
+      'styled-jsx/babel'
     ]
   }
 })

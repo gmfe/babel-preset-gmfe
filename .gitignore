@@ -1,6 +1,3 @@
 node_modules
-
-# Only apps should have lockfiles
-package-lock.json
 yarn.lock
-npm-shrinkwrap.json
+.idea
