@@ -39,7 +39,6 @@ module.exports = declare((api, options) => {
             require('@babel/plugin-transform-runtime'),
             'styled-jsx/babel',
             require('@babel/plugin-proposal-optional-chaining'),
-            require('@babel/')
         ]
     }
 })
